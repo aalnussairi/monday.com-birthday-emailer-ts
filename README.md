@@ -1,4 +1,4 @@
-# Sendgrid Birthday Emailer
+# Monday.com Sendgrid Birthday Emailer
 A simple integration with monday.com that sends a plain text email to a specified individual, wishing them a happy birthday.
 
 This is the TypeScript implementation.
