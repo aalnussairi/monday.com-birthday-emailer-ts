@@ -22,7 +22,7 @@ export const executeAction = async (req: Request, res: Response) => {
       birthdate
     );
 
-    sendEmail(recipientEmail, recipientName, recipientAge);
+    await sendEmail(recipientEmail, recipientName, recipientAge);
 
     return res.status(200).send({});
   } catch (err) {
